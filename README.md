@@ -219,8 +219,8 @@ Provenance and format:
   each expected term is in the article text and no forbidden term is.
 - The questions were written for this repository from the statute text. Some cover the same public-law topics as
   questions in the pilot's key (common deadlines, for instance); none uses the pilot's material.
-- An answer key ages with the law. Art. 7º, XIII of the Constitution (weekly working hours) was amended in October
-  2026 with a phased transition (EC 141/2026, according to the consolidated text), so no question asks about it.
+- An answer key ages with the law: when a statute changes, the affected questions have to be reviewed before the
+  next run. Check the corpus against planalto.gov.br before relying on it.
 
 ## What is not included, and why
 

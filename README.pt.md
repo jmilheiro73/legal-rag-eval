@@ -177,8 +177,8 @@ para `results/`.
   termo esperado está no texto e nenhum termo proibido está.
 - As perguntas foram escritas para este repositório a partir do texto da lei. Algumas tratam dos mesmos temas de lei
   pública que perguntas do gabarito do piloto (prazos comuns, por exemplo); nenhuma usa o material do piloto.
-- Gabarito envelhece com a lei. O art. 7º, XIII da Constituição (jornada semanal) foi alterado em outubro de 2026 com
-  transição em etapas (EC 141/2026, segundo o texto compilado), por isso nenhuma pergunta trata dele.
+- Gabarito envelhece com a lei: quando uma lei muda, as perguntas afetadas precisam ser revistas antes da próxima
+  rodada. Confira o corpus no planalto.gov.br antes de confiar nele.
 
 ## O que não está incluído, e por quê
 
