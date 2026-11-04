@@ -1,0 +1,131 @@
+annotated-types==0.8.0
+    # via pydantic
+anyio==4.16.0
+    # via httpx
+ast-serialize==0.13.1
+    # via mypy
+backoff==2.2.1
+    # via langfuse
+certifi==2026.10.23
+    # via
+    #   httpcore
+    #   httpx
+    #   requests
+charset-normalizer==3.5.2
+    # via requests
+googleapis-common-protos==1.76.0
+    # via opentelemetry-exporter-otlp-proto-http
+grpcio==1.85.1
+    # via qdrant-client
+h11==0.16.0
+    # via httpcore
+h2==4.4.1
+    # via httpx
+hpack==4.2.0
+    # via h2
+httpcore==1.0.9
+    # via httpx
+httpx==0.28.1
+    # via
+    #   legal-rag-eval (pyproject.toml)
+    #   langfuse
+    #   qdrant-client
+hyperframe==6.1.0
+    # via h2
+idna==3.20
+    # via
+    #   anyio
+    #   httpx
+    #   requests
+iniconfig==2.3.1
+    # via pytest
+langfuse==5.1.0
+    # via legal-rag-eval (pyproject.toml)
+librt==0.16.0
+    # via mypy
+mypy==2.4.1
+    # via legal-rag-eval (pyproject.toml)
+mypy-extensions==1.2.0
+    # via mypy
+numpy==2.5.4
+    # via qdrant-client
+opentelemetry-api==1.45.2
+    # via
+    #   langfuse
+    #   opentelemetry-exporter-http-transport
+    #   opentelemetry-exporter-otlp-proto-http
+    #   opentelemetry-sdk
+    #   opentelemetry-semantic-conventions
+opentelemetry-exporter-http-transport==0.66b2
+    # via opentelemetry-exporter-otlp-proto-http
+opentelemetry-exporter-otlp-common==0.66b2
+    # via opentelemetry-exporter-otlp-proto-http
+opentelemetry-exporter-otlp-proto-common==1.45.2
+    # via opentelemetry-exporter-otlp-proto-http
+opentelemetry-exporter-otlp-proto-http==1.45.2
+    # via langfuse
+opentelemetry-proto==1.45.2
+    # via
+    #   opentelemetry-exporter-otlp-proto-common
+    #   opentelemetry-exporter-otlp-proto-http
+opentelemetry-sdk==1.45.2
+    # via
+    #   langfuse
+    #   opentelemetry-exporter-otlp-common
+    #   opentelemetry-exporter-otlp-proto-http
+opentelemetry-semantic-conventions==0.66b2
+    # via opentelemetry-sdk
+packaging==26.3
+    # via
+    #   langfuse
+    #   pytest
+pathspec==1.1.1
+    # via mypy
+pluggy==1.7.0
+    # via pytest
+portalocker==4.4.2
+    # via qdrant-client
+protobuf==7.36.2
+    # via
+    #   googleapis-common-protos
+    #   opentelemetry-proto
+    #   qdrant-client
+pydantic==2.14.2
+    # via
+    #   langfuse
+    #   qdrant-client
+pydantic-core==2.50.2
+    # via pydantic
+pygments==2.21.0
+    # via pytest
+pytest==9.2.0
+    # via legal-rag-eval (pyproject.toml)
+qdrant-client==1.20.0
+    # via legal-rag-eval (pyproject.toml)
+requests==2.34.2
+    # via
+    #   opentelemetry-exporter-http-transport
+    #   opentelemetry-exporter-otlp-proto-http
+ruff==0.17.3
+    # via legal-rag-eval (pyproject.toml)
+typing-extensions==4.16.0
+    # via
+    #   anyio
+    #   grpcio
+    #   langfuse
+    #   mypy
+    #   opentelemetry-api
+    #   opentelemetry-exporter-otlp-proto-http
+    #   opentelemetry-sdk
+    #   opentelemetry-semantic-conventions
+    #   pydantic
+    #   pydantic-core
+    #   typing-inspection
+typing-inspection==0.4.4
+    # via pydantic
+urllib3==2.8.0
+    # via
+    #   qdrant-client
+    #   requests
+wrapt==2.5.2
+    # via langfuse

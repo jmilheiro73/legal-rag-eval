@@ -1,0 +1,334 @@
+[
+  {
+    "id": "cdc-01",
+    "question": "Comprei uma geladeira e ela chegou com um defeito visível. Até quando posso reclamar com a loja?",
+    "expected": [
+      "90|noventa"
+    ],
+    "legal_basis": [
+      "CDC art. 26"
+    ]
+  },
+  {
+    "id": "cdc-02",
+    "question": "Um aparelho com defeito causou um acidente em casa. Em quanto tempo prescreve o direito à indenização, e desde quando esse prazo conta?",
+    "expected": [
+      "5|cinco",
+      "conhecimento do dano"
+    ],
+    "legal_basis": [
+      "CDC art. 27"
+    ]
+  },
+  {
+    "id": "cdc-03",
+    "question": "Comprei um produto pela internet e me arrependi. Posso desistir da compra? Em quanto tempo?",
+    "starts_with": "sim",
+    "expected": [
+      "7|sete"
+    ],
+    "legal_basis": [
+      "CDC art. 49"
+    ]
+  },
+  {
+    "id": "cdc-04",
+    "question": "O fornecedor de serviços só responde pelos danos causados ao consumidor se tiver agido com culpa?",
+    "starts_with": "não",
+    "expected": [
+      "independentemente da existência de culpa|independentemente de culpa|independente de culpa"
+    ],
+    "legal_basis": [
+      "CDC art. 14"
+    ]
+  },
+  {
+    "id": "cdc-05",
+    "question": "Se o fornecedor não consertar o vício do produto, depois de quantos dias o consumidor pode exigir a troca do produto ou o dinheiro de volta?",
+    "expected": [
+      "30|trinta"
+    ],
+    "legal_basis": [
+      "CDC art. 18"
+    ],
+    "note": "Distractor: CDC art. 26 also has a 30-day period, for a different situation."
+  },
+  {
+    "id": "cdc-06",
+    "question": "Numa ação contra uma loja, o consumidor sempre tem de provar o que alega, ou o juiz pode transferir esse ônus para o fornecedor? Em que condições?",
+    "expected": [
+      "verossímil|verossimil|verossimilhança",
+      "hipossuficien"
+    ],
+    "legal_basis": [
+      "CDC art. 6"
+    ]
+  },
+  {
+    "id": "lgpd-01",
+    "question": "Uma empresa só pode tratar dados pessoais se tiver o consentimento do titular?",
+    "starts_with": "não",
+    "expected": [
+      "obrigação legal|legítimo interesse|legítimos|execução de contrato|proteção do crédito|tutela da saúde"
+    ],
+    "legal_basis": [
+      "LGPD art. 7"
+    ]
+  },
+  {
+    "id": "lgpd-02",
+    "question": "Uma empresa sofreu um vazamento de dados pessoais de clientes. Quem tem o dever de avisar a autoridade nacional e os titulares?",
+    "expected": [
+      "controlador"
+    ],
+    "legal_basis": [
+      "LGPD art. 48"
+    ]
+  },
+  {
+    "id": "lgpd-03",
+    "question": "Até quanto pode chegar a multa simples que a autoridade nacional aplica a uma empresa por uma infração à LGPD?",
+    "expected": [
+      "2%|dois por cento",
+      "50.000.000|50 milhões|cinquenta milhões"
+    ],
+    "legal_basis": [
+      "LGPD art. 52"
+    ]
+  },
+  {
+    "id": "cpc-01",
+    "question": "Fui citado numa ação cível. Qual o prazo para apresentar contestação?",
+    "expected": [
+      "15|quinze"
+    ],
+    "legal_basis": [
+      "CPC art. 335"
+    ]
+  },
+  {
+    "id": "cpc-02",
+    "question": "No processo civil, sábados, domingos e feriados entram na contagem dos prazos?",
+    "starts_with": "não",
+    "expected": [
+      "úteis"
+    ],
+    "legal_basis": [
+      "CPC art. 219"
+    ]
+  },
+  {
+    "id": "cpc-03",
+    "question": "Um município é réu numa ação cível. Ele tem mais tempo que um particular para se manifestar no processo?",
+    "starts_with": "sim",
+    "expected": [
+      "dobro"
+    ],
+    "forbidden": [
+      "quádruplo"
+    ],
+    "legal_basis": [
+      "CPC art. 183"
+    ],
+    "note": "The 1973 CPC gave public entities quadruple time to answer a claim. A model answering from memory may still say so."
+  },
+  {
+    "id": "cpc-04",
+    "question": "Na fase de cumprimento de sentença, quais acréscimos o devedor sofre se não pagar voluntariamente no prazo?",
+    "expected": [
+      "multa",
+      "10%|dez por cento",
+      "honorários"
+    ],
+    "legal_basis": [
+      "CPC art. 523"
+    ]
+  },
+  {
+    "id": "cpc-05",
+    "question": "O devedor não pagou no cumprimento de sentença. Quanto tempo ele tem para impugnar, e precisa esperar a penhora?",
+    "expected": [
+      "15|quinze",
+      "independentemente de penhora|sem penhora|não é necessária|não é preciso|não precisa|não depende"
+    ],
+    "forbidden": [
+      "contados da penhora|a partir da penhora|da intimação da penhora"
+    ],
+    "legal_basis": [
+      "CPC art. 525"
+    ],
+    "note": "Under the 1973 CPC the period ran from notice of the attachment (penhora). Answers that start the period at the penhora reproduce repealed law."
+  },
+  {
+    "id": "cpc-06",
+    "question": "Vou ajuizar uma ação cível. Que informações a petição inicial precisa trazer?",
+    "expected": [
+      "pedido",
+      "valor da causa",
+      "provas"
+    ],
+    "legal_basis": [
+      "CPC art. 319"
+    ]
+  },
+  {
+    "id": "clt-01",
+    "question": "Quem trabalha oito horas por dia tem direito a quanto tempo de intervalo para repouso e alimentação, no mínimo?",
+    "expected": [
+      "1 hora|uma hora|1 (uma) hora|60 minutos|sessenta minutos"
+    ],
+    "legal_basis": [
+      "CLT art. 71"
+    ]
+  },
+  {
+    "id": "clt-02",
+    "question": "Se o empregador não concede o intervalo intrajornada, o que ele deve pagar ao empregado?",
+    "expected": [
+      "suprimido",
+      "50%|cinquenta por cento"
+    ],
+    "legal_basis": [
+      "CLT art. 71"
+    ]
+  },
+  {
+    "id": "clt-03",
+    "question": "Empresa e empregado podem combinar um banco de horas entre eles, por escrito, sem negociação coletiva? Em quanto tempo as horas precisam ser compensadas?",
+    "starts_with": "sim",
+    "expected": [
+      "seis meses|6 meses"
+    ],
+    "legal_basis": [
+      "CLT art. 59"
+    ],
+    "note": "Distractor in the same article: § 2º allows one year, but only by collective agreement."
+  },
+  {
+    "id": "clt-04",
+    "question": "Fui demitido. Em quantos dias a empresa tem de pagar a rescisão, e o que acontece se ela pagar depois disso?",
+    "expected": [
+      "10|dez",
+      "multa"
+    ],
+    "forbidden": [
+      "primeiro dia útil|1º dia útil"
+    ],
+    "legal_basis": [
+      "CLT art. 477"
+    ],
+    "note": "Before the 2017 labour reform the deadline was the first business day or the tenth day, depending on notice. The current rule is ten days in all cases."
+  },
+  {
+    "id": "clt-05",
+    "question": "Uma empresa quer suspender contratos de trabalho para oferecer um programa de qualificação profissional. Qual a duração mínima e máxima dessa suspensão?",
+    "expected": [
+      "2|dois",
+      "5|cinco"
+    ],
+    "legal_basis": [
+      "CLT art. 476-A"
+    ]
+  },
+  {
+    "id": "trab-01",
+    "question": "Saí da empresa há um ano. Até quando posso entrar com ação trabalhista, e quantos anos para trás posso cobrar?",
+    "expected": [
+      "5|cinco",
+      "2|dois"
+    ],
+    "forbidden": [
+      "prorrog",
+      "7 anos|sete anos"
+    ],
+    "legal_basis": [
+      "CF art. 7"
+    ],
+    "note": "Five years back, filed within two years of the end of the contract. Adding them up (seven years) or describing an extension is wrong."
+  },
+  {
+    "id": "trab-02",
+    "question": "Qual o adicional mínimo sobre a hora normal no pagamento de horas extras?",
+    "expected": [
+      "50%|cinquenta por cento|cinqüenta por cento"
+    ],
+    "legal_basis": [
+      "CF art. 7"
+    ],
+    "note": "Distractor: CLT art. 71 § 4º also has a 50% surcharge, for the missed break."
+  },
+  {
+    "id": "trab-03",
+    "question": "Qual o máximo de dias de aviso prévio que um empregado pode ter, somando o acréscimo por tempo de serviço, e quanto se acrescenta por ano?",
+    "expected": [
+      "90|noventa",
+      "3|três"
+    ],
+    "legal_basis": [
+      "Lei 12.506 art. 1"
+    ]
+  },
+  {
+    "id": "cc-01",
+    "question": "Se nenhuma lei prevê um prazo específico para uma pretensão, em quantos anos ela prescreve pelo Código Civil?",
+    "expected": [
+      "10|dez"
+    ],
+    "forbidden": [
+      "20 anos|vinte anos"
+    ],
+    "legal_basis": [
+      "CC art. 205"
+    ],
+    "note": "The 1916 Civil Code had a 20-year general period for personal claims."
+  },
+  {
+    "id": "cc-02",
+    "question": "Bateram no meu carro. Em quanto tempo prescreve o direito de pedir a reparação civil do dano?",
+    "expected": [
+      "3|três"
+    ],
+    "forbidden": [
+      "20 anos|vinte anos"
+    ],
+    "legal_basis": [
+      "CC art. 206"
+    ]
+  },
+  {
+    "id": "cc-03",
+    "question": "Com que idade cessa a menoridade civil?",
+    "expected": [
+      "18|dezoito"
+    ],
+    "forbidden": [
+      "21 anos|vinte e um anos"
+    ],
+    "legal_basis": [
+      "CC art. 5"
+    ],
+    "note": "The 1916 Civil Code set the age at 21."
+  },
+  {
+    "id": "cc-04",
+    "question": "Qual o prazo para o comprador pedir abatimento do preço por vício redibitório em coisa móvel? E se for imóvel?",
+    "expected": [
+      "30|trinta",
+      "um ano|1 ano"
+    ],
+    "legal_basis": [
+      "CC art. 445"
+    ]
+  },
+  {
+    "id": "cc-05",
+    "question": "Quem causa dano a outra pessoa por ato ilícito é obrigado a repará-lo?",
+    "starts_with": "sim",
+    "expected": [],
+    "legal_basis": [
+      "CC art. 927",
+      "CC art. 186"
+    ],
+    "note": "No expected terms: the question already contains the words a correct answer would use, so only the yes/no start and the citation are checked."
+  }
+]

@@ -1,0 +1,53 @@
+[build-system]
+requires = ["setuptools==84.2.1"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "legal-rag-eval"
+version = "0.1.0"
+description = "Evaluation harness for RAG over Brazilian statutes: retrieval-only metrics and rule-based end-to-end checks"
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.12"
+authors = [{ name = "Juan Milheiro" }]
+dependencies = [
+  "httpx==0.28.1",
+  "qdrant-client==1.20.0",
+]
+
+[project.optional-dependencies]
+langfuse = ["langfuse==5.1.0"]
+dev = [
+  "pytest==9.2.0",
+  "mypy==2.4.1",
+  "ruff==0.17.3",
+]
+
+[project.scripts]
+legal-rag-eval = "legal_rag_eval.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+legal_rag_eval = ["prompts/*.txt"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+
+[tool.mypy]
+files = ["src", "tests"]
+strict = true
+warn_unused_ignores = true
+
+[[tool.mypy.overrides]]
+module = ["langfuse", "langfuse.*"]
+ignore_missing_imports = true
+
+[tool.ruff]
+line-length = 120
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP", "SIM"]

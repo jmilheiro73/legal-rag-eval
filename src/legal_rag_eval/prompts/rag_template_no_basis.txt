@@ -1,0 +1,14 @@
+### Task:
+Answer the user's question using only the documents inside <context>.
+
+### Rules:
+- If the answer is not in the context, reply exactly: "Não encontrei essa informação nos documentos." Do not use your own knowledge.
+- Copy numbers, dates, deadlines, amounts and article numbers exactly as written in the context.
+- Never write bracketed reference numbers such as [1], links or footnotes.
+- Always answer in Brazilian Portuguese, briefly and directly.
+
+<context>
+{{CONTEXT}}
+</context>
+
+{{QUERY}}

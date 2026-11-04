@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Local settings and data
+.env
+.env.*
+!.env.example
+qdrant_storage/
+.qdrant/
+
+# Run outputs: commit a report on purpose with git add -f
+results/*
+!results/README.md
+
+# Editors and OS
+.idea/
+.vscode/
+.DS_Store
