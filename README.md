@@ -8,6 +8,10 @@ It is the evaluation method of a private on-premise legal RAG pilot, rebuilt on 
 inspected. The pilot's documents and answer key are not in this repository (see
 [What is not included](#what-is-not-included-and-why)).
 
+[![The private pilot this harness comes from: architecture, benchmark and the two-layer evaluation](assets/rag-pilot.gif)](https://juan-milheiro.vercel.app/#local-ai)
+
+<sub>The private pilot this method comes from. Full narrated video on <a href="https://juan-milheiro.vercel.app/#local-ai">my portfolio</a>.</sub>
+
 Versão em português: [README.pt.md](README.pt.md).
 
 ## Why measure retrieval and generation separately
