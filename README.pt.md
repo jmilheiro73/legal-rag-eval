@@ -8,6 +8,10 @@ sim/não, termos proibidos, números exatos e fundamento legal obrigatório.
 executado e inspecionado. Os documentos e o gabarito do piloto não estão neste repositório (ver
 [O que não está incluído](#o-que-não-está-incluído-e-por-quê)).
 
+[![O piloto privado de onde vem este método: arquitetura, benchmark e a avaliação em duas camadas](assets/rag-pilot.gif)](https://github.com/jmilheiro73/legal-rag-eval/releases/download/videos/rag-pt.mp4)
+
+<sub>O piloto privado de onde vem este método. ▶ Vídeo narrado: <a href="https://github.com/jmilheiro73/legal-rag-eval/releases/download/videos/rag-pt.mp4">Português</a> · <a href="https://github.com/jmilheiro73/legal-rag-eval/releases/download/videos/rag-en.mp4">English</a></sub>
+
 English version: [README.md](README.md).
 
 ## Por que medir busca e geração separadamente
